@@ -120,19 +120,6 @@ flutter pub get
 flutter run
 ```
 
-### Backend Setup
-
-```bash
-# Navigate to backend directory
-cd backend
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-```
-
 ### Environment Configuration
 
 Create a `.env` file in the root directory:
@@ -213,34 +200,6 @@ Uses GoRouter for efficient navigation with:
 - Role-based routing (Admin/Customer)
 - Deep linking support
 - Route protection
-
-## 🧪 Testing
-
-```bash
-# Run unit tests
-flutter test
-
-# Run widget tests
-flutter test test/widget_test.dart
-```
-
-## 📱 Screenshots
-
-### Customer Interface
-
-- Home screen with tour listings
-- Tour detail pages
-- Booking management
-- Profile customization
-- AI ChatBot interface
-
-### Admin Interface
-
-- Dashboard with analytics
-- User management
-- Tour CRUD operations
-- Booking management
-- Review moderation
 
 ## 🎨 UI/UX Features
 
